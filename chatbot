@@ -1,0 +1,34 @@
+
+def chatbot ():
+    print("Hello! I am a chatbot. How can I help you today?")
+    print("for exit : type bye  ")
+
+    while True:
+        user =input("you: ").lower()
+        if user =="hi":
+            print("chatbot: Hello! How are you?")
+
+        elif user =="how are you?":
+            print("chatbot: I am doing well, thank you!\n what about you?")    
+        elif user =="i am fine":
+            print("chatbot: That's great to hear! Is there anything specific you would like to talk about?")
+
+        elif user =="movies":
+            print("chatbot: I love movies! What is your favorite movie?\n list :" \
+            "1. Bahubali2 \n 2.KGF 2\n 3. THOR \n 4. CAPTAIN AMERICA \n 5. BIGIL")
+
+        elif user == "joke":
+            print("Bot:", "Why don't scientists trust atoms? Because they make up everything!")
+
+
+        elif user =="bye":
+            print ("chatbot: Goodbye! Have a great day!")
+            break
+        else :
+            print("chatbot: i am sorry, i am unable to understant yo ,mala kahi  samjat nhi ahe ......")  
+
+
+chatbot()                  
+
+
+
